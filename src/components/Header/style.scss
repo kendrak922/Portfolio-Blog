@@ -1,0 +1,48 @@
+$tan: #BFAB25;
+$cream: #A4B494;
+$pink: #F9DEC9;
+$green:#54494B;
+$taupe:#3A405A;
+
+.nav{
+margin: 0 auto;
+margin-right: 20px;
+float:right;
+display:flex;
+flex-direction: column;
+flex-wrap: wrap;
+width: 100px;
+justify-content: center;
+align-items: center;
+p{
+margin-top:-10px;
+text-align:center;
+cursor: pointer;
+}
+}
+
+img{
+height:75px;
+width: 75px;
+}
+
+.link{
+  text-decoration:none;
+  font-size: 15px; 
+  color: $taupe;
+  margin: 1em;
+  border-bottom: 1px $taupe solid;
+  text-align: center;
+  display:flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  }
+

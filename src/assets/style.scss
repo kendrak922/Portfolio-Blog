@@ -1,0 +1,90 @@
+//global styles
+$tan: #BFAB25;
+$cream: #A4B494;
+$pink: #F9DEC9;
+$green:#54494B;
+$taupe:#3A405A;
+
+@import url("https://fonts.googleapis.com/css?family=Imprima|Londrina+Solid");
+@import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css");
+
+html{
+  font-family: 'Londrina Solid', cursive;
+}
+body{
+  background-color: $cream;
+  color: $taupe;
+  font-family: 'Imprima', sans-serif;
+  margin: 0 auto;
+}
+
+//landing page
+.background{
+  background-color:$tan;
+  height:460px;
+  .title{
+    text-align:center;
+    font-size: 8em;
+    padding-top: 300px;
+    margin-bottom: 2rem;
+    font-family: 'Londrina Solid', cursive;
+  }
+  h2{
+  text-align: center;
+  // color:$tan;
+  font-family: 'Imprima', sans-serif;
+  font-size:2em;
+  
+  }
+}
+.background2{
+background-color:none;
+height:150px;
+}
+
+//about me
+.imgcontainer{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+
+.green{
+  background-color: $pink;
+  height:400px;
+  width: 600px;
+  margin-left: 100px;
+  margin-top: 400px;
+  border-radius: 1px;
+  box-shadow: 5px 10px 20px $green;
+}
+ img{
+   width: 400px;
+   height: auto;
+   margin-top: -600px;
+   margin-left: 200px;
+   margin-bottom: 100px;
+}
+p{
+  align-self: flex-end;
+  height: auto;
+  margin: 3em;
+  width: 400px;
+  // color: $tan;
+  margin-top: -400px;
+  margin-right:200px;
+  font-size: 25px;
+}
+}
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 100%;
+  }
+
+.imgcontainer{
+  flex-direction: row;
+}
+}
+
