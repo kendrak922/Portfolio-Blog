@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 import './style.scss';
 
 
-import icon from '../../../public/images/icon.png'
+import icon from '../../../public/icons/icon.png'
 
 
 class Header extends Component {
@@ -28,7 +28,7 @@ class Header extends Component {
               {this.state.on && (
                 <div className="links">
                   <Link className="link" to="/">Home</Link>
-                  <Link className="link" to="/page-2/">Writing</Link>
+                  <Link className="link" to="/frontpage/">Writing</Link>
                   <Link className="link" to="#">Company</Link>
                 </div>
               )}

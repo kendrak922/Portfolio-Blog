@@ -1,5 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import Header from '../components/Header';
+import Sticky from 'react-stickynode';
+import Footer from '../components/Footer'
 
 import { rhythm, scale } from '../utils/typography'
 
@@ -24,7 +27,7 @@ class Template extends React.Component {
               textDecoration: 'none',
               color: 'inherit',
             }}
-            to={'/'}
+            to={'/frontpage'}
           >
             Alacrity: Brisk and Cheeful Readiness
           </Link>
@@ -44,7 +47,7 @@ class Template extends React.Component {
               textDecoration: 'none',
               color: 'inherit',
             }}
-            to={'/'}
+            to={'/frontpage'}
           >
              Alacrity: Brisk and Cheeful Readiness
           </Link>
@@ -52,6 +55,10 @@ class Template extends React.Component {
       )
     }
     return (
+      <div>
+      <Sticky>
+      <Header />
+      </Sticky>
       <div
         style={{
           marginLeft: 'auto',
@@ -62,6 +69,8 @@ class Template extends React.Component {
       >
         {header}
         {children}
+      </div>
+      <Footer />
       </div>
     )
   }

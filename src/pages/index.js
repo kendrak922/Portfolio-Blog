@@ -5,12 +5,17 @@ import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 import '../assets/style.scss'
+import Header from '../components/Header';
+import Sticky from 'react-stickynode';
 class IndexPage extends Component {
  
   render() {
     return (
       <div className="IndexPage">
       <Helmet/>
+      <Sticky>
+    <Header />
+    </Sticky>
         <div className="background">
           <h1 className="title">It's me, Kendra.</h1>
           <h2>Full Stack Web Developer</h2>
