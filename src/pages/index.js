@@ -7,6 +7,7 @@ import Helmet from 'react-helmet'
 import '../assets/style.scss'
 import Header from '../components/Header';
 import Sticky from 'react-stickynode';
+import Work from '../components/Work';
 class IndexPage extends Component {
  
   render() {
@@ -26,6 +27,7 @@ class IndexPage extends Component {
           <img src={face} alt="a picture of my face" />
           <p className="about">Based in Minneapolis, Minnesota. Coding BootCamp and Liberal Arts graduate with the resources to create elegant and responsive websites. Enthusiastic about people, great writing, and technological solutions</p>
         </div>
+        <Work />
         <Footer />
       </div> 
     );

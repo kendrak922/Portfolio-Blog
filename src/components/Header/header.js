@@ -29,7 +29,7 @@ class Header extends Component {
                 <div className="links">
                   <Link className="link" to="/">Home</Link>
                   <Link className="link" to="/frontpage/">Writing</Link>
-                  <Link className="link" to="#">Company</Link>
+                  <Link className="link" to="#">Banshee</Link>
                 </div>
               )}
       </div>

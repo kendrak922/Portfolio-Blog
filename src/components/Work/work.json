@@ -1,0 +1,44 @@
+[
+    {
+        "id":1,
+        "title": "Chill Time Trivia",
+        "image":"../../../public/images/pizza.jpg",
+        "link": "https://octopied.herokuapp.com/game",
+        "github":"https://github.com/kendrak922/Octopied"
+    },
+    {
+     "id":2,
+     "title": "Octopied",
+     "image":"../../../public/images/cat.jpg",
+     "link": "https://octopied.herokuapp.com/game",
+     "github":"https://github.com/kendrak922/Octopied"
+ },
+ {
+    "id":3,
+    "title": "We The People",
+    "image":"../../../public/images/cat.jpg",
+    "link": "https://octopied.herokuapp.com/game",
+    "github":"https://github.com/kendrak922/We-the-People"
+},
+{
+    "id":4,
+    "title": "Amazon-Customer",
+    "image":"../../../public/images/cat.jpg",
+    "link": "",
+    "github":"https://github.com/kendrak922/Amazon-Customer"
+},
+{
+    "id":5,
+    "title": "Firebase Train Schedule",
+    "image":"../../../public/images/cat.jpg",
+    "link": "",
+    "github":"https://github.com/kendrak922/TrainSchedule"
+},
+{
+    "id":6,
+    "title": "React Click Game",
+    "image":"../../../public/images/cat.jpg",
+    "link": "",
+    "github":"https://github.com/kendrak922/Click-Game"
+}
+ ]

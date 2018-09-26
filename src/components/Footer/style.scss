@@ -20,12 +20,13 @@ $taupe:#3A405A;
        i{
         padding:9px 10px 10px 10px;
         background-color:$pink;
-        width:35px;
-        height:20px;
-        margin:0 auto;
+        text-decoration:none;
+        width:auto;
+        height: auto;
+        margin: auto 0;
         color:$green;
         margin-bottom:4px;
-        border-radius: 50%;
+        border-radius: 20%;
        }
        i:hover{
            background-color:$tan;

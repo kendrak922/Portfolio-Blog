@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Kendra Kyndberg | Full Stack Developer | Portfolio | Blog',
+    title: 'Kendra Kyndberg | Portfolio | Blog',
     author: 'Kendra Kyndberg',
     description: '',
     siteUrl: 'https://gatsbyjs.github.io/gatsby-starter-blog/',
