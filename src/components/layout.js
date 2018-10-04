@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import Header from '../components/Header';
 import Sticky from 'react-stickynode';
 import Footer from '../components/Footer'
+import Bio from '../components/Bio'
 
 import { rhythm, scale } from '../utils/typography'
 
@@ -12,7 +13,7 @@ class Template extends React.Component {
     const rootPath = `${__PATH_PREFIX__}/`
     let header
 
-    if (location.pathname === rootPath) {
+    if (location.pathname === '/frontpage/' || "/frontpage") {
       header = (
         <h1
           style={{
@@ -31,6 +32,7 @@ class Template extends React.Component {
           >
             Alacrity: Brisk and Cheeful Readiness
           </Link>
+          <Bio />
         </h1>
       )
     } else {

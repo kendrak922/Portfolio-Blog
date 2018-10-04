@@ -6,11 +6,10 @@ class Bio extends React.Component {
   render() {
     return (
       <div>
-        <p>
-          Written by <strong>Kyle Mathews</strong> who lives and works in San
-          Francisco building useful things.{' '}
+        <p className="bio">
+          My name is Kendra and I am a highly indecisive, but enthusiastic lover of words, dancing, and cilantro. 
+          I really hate American Cheese. 
           <a href="https://twitter.com/kylemathews">
-            You should follow him on Twitter
           </a>
         </p>
       </div>

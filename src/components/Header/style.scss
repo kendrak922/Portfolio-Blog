@@ -1,8 +1,8 @@
-$tan: #BFAB25;
-$cream: #A4B494;
+$mustard: #BFAB25;
+$green: #A4B494;
 $pink: #F9DEC9;
-$green:#54494B;
-$taupe:#3A405A;
+$brown:#54494B;
+$navy:#3A405A;
 
 .nav{
 margin: 0 auto;
@@ -29,9 +29,9 @@ width: 75px;
 .link{
   text-decoration:none;
   font-size: 15px; 
-  color: $taupe;
+  color: $navy;
   margin: 1em;
-  border-bottom: 1px $taupe solid;
+  border-bottom: 1px $navy solid;
   text-align: center;
   display:flex;
 flex-direction: column;

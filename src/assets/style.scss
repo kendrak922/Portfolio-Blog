@@ -1,9 +1,9 @@
 //global styles
-$tan: #BFAB25;
-$cream: #A4B494;
+$mustard: #BFAB25;
+$green: #A4B494;
 $pink: #F9DEC9;
-$green:#54494B;
-$taupe:#3A405A;
+$brown:#54494B;
+$navy:#3A405A;
 
 @import url("https://fonts.googleapis.com/css?family=Imprima|Londrina+Solid");
 @import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css");
@@ -12,8 +12,8 @@ html{
   font-family: 'Londrina Solid', cursive;
 }
 body{
-  background-color: $cream;
-  color: $taupe;
+  background-color: $green;
+  color: $navy;
   font-family: 'Imprima', sans-serif;
   margin: 0;
   padding: 0;
@@ -21,7 +21,7 @@ body{
 
 //landing page
 .background{
-  background-color:$tan;
+  background-color:$mustard;
   height:460px;
   margin-top:-60px;
   .title{
@@ -53,7 +53,7 @@ height:150px;
   height: auto;
 
 .green{
-  background-color: $pink;
+  background-color: $green;
   height:400px;
   width: 600px;
   margin-left: 100px;
@@ -107,4 +107,12 @@ p{
  }
 }
 }
+.bio{
+  margin: 5px;
+  margin-top: 70px;
+  font-size: 20px;
+}
 
+body.frontpage{
+  background: $green;
+}

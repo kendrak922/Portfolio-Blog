@@ -1,9 +1,8 @@
-$tan: #BFAB25;
-$cream: #A4B494;
+$mustard: #BFAB25;
+$green: #A4B494;
 $pink: #F9DEC9;
-$green:#54494B;
-$taupe:#3A405A;
-
+$brown:#54494B;
+$navy:#3A405A;
 
 .footer{
     text-align: center;
@@ -29,7 +28,7 @@ $taupe:#3A405A;
         border-radius: 20%;
        }
        i:hover{
-           background-color:$tan;
+           background-color:$mustard;
            transform: scale(1.1);
            transition:.15s;
        }
