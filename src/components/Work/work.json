@@ -3,7 +3,7 @@
         "id":1,
         "title": "Chill Time Trivia",
         "image":"../../../public/images/pizza.jpg",
-        "link": "https://octopied.herokuapp.com/game",
+        "link": "https://chilltimetrivia.herokuapp.com/",
         "github":"https://github.com/kendrak922/Octopied"
     },
     {
@@ -17,7 +17,7 @@
     "id":3,
     "title": "We The People",
     "image":"../../../public/images/cat.jpg",
-    "link": "https://octopied.herokuapp.com/game",
+    "link": "https://wethepeopleapp.herokuapp.com/index.html ",
     "github":"https://github.com/kendrak922/We-the-People"
 },
 {

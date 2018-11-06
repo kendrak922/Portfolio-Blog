@@ -1,9 +1,9 @@
 //global styles
 $mustard: #BFAB25;
-$green: #A4B494;
-$pink: #F9DEC9;
-$brown:#54494B;
-$navy:#3A405A;
+$green: #8DAA91;
+$pink: #885053;
+$brown:#EFECCA;
+$navy:#2A3D45;
 
 @import url("https://fonts.googleapis.com/css?family=Imprima|Londrina+Solid");
 @import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css");
@@ -21,7 +21,7 @@ body{
 
 //landing page
 .background{
-  background-color:$mustard;
+  background-color:$navy;
   height:460px;
   margin-top:-60px;
   .title{
@@ -30,6 +30,7 @@ body{
     padding-top: 300px;
     margin-bottom: 2rem;
     font-family: 'Londrina Solid', cursive;
+    color: $pink;
   }
   h2{
   text-align: center;
