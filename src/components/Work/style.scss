@@ -1,0 +1,32 @@
+//global styles
+$mustard: #BFAB25;
+$green: #8DAA91;
+$pink: #885053;
+$brown:#EFECCA;
+$navy:#2A3D45;
+
+
+
+.work-container{
+    margin: 45px;
+    display:flex column;
+
+}
+.project{
+    display: flex;
+    flex-direction: row;
+    .project-right{
+        margin: 50px;
+
+    }
+    .project-left{
+
+    }
+}
+.project-title{
+    font-size: 40px;
+}
+.project-image{
+    height: 30vh;
+    width: 20vw;
+}
