@@ -17,8 +17,8 @@ const Work = () => (
                 <img className="project-image" src={chillTime} />
                 </div>
                 <div className="project-right">
-                    <p className="work-description">The app will allow users to log in. Users play a single game of of trivia with friends or random users, trivia games will be interactive including chat. Question will only be in mulitple choice format. No schedules no waiting. Play when you want.</p>
-                    <p>Github</p>
+                    <p className="work-description">The app will allow users to login and play any time of the day. Users play a single game of of trivia with friends or random users, trivia games will be interactive including chat. Question will only be in mulitple choice format. No schedules no waiting. Play when you want.</p>
+                    <p className="project-link">Github</p>
                 </div>
             </div>
             <div className="project">
@@ -28,7 +28,7 @@ const Work = () => (
             </div>
                 <div className="project-right">
                     <p className="work-description">A full-stack Javascript app which allows the user to be more engaged in local politics.</p>
-                     <p>Github</p>
+                     <p className="project-link">Github</p>
                 </div>
             </div>
             <div className="project">
@@ -38,7 +38,7 @@ const Work = () => (
             </div>
                 <div className="project-right">
                   <p className="work-description">Node.js and MySQL app</p>
-                  <p>Github</p>
+                  <p className="project-link">Github</p>
                </div>
             </div>
                     </div>
