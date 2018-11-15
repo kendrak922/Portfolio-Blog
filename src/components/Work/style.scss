@@ -6,7 +6,6 @@ $brown:#EFECCA;
 $navy:#2A3D45;
 
 
-
 .project{
     margin: auto 0;
     height: 100%;
@@ -19,6 +18,7 @@ $navy:#2A3D45;
         align-items: center;
     }
     .project-right{
+        align-items: center;
         width:50vw;
         padding: 10px;
         padding-top: 20px;
@@ -44,8 +44,22 @@ $navy:#2A3D45;
         background: $mustard;
         border-radius: 10px;
     }
+    
+    .project-right{
     .project-link{
-    visibility: visible; 
-    cursor: pointer;
+        display: wrap;
+        visibility: visible;
+    font:bold 16px;
+            color:white;
+            background-color: $navy;
+            border:none;
+            border-radius: 4px;
+            padding:8px 20px;
+            cursor: pointer;
+            width: 100px;
+            text-decoration: none;
     }
+}
+}a{
+    text-decoration: none;
 }
