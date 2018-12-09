@@ -27,9 +27,9 @@ class Header extends Component {
               <p onClick={this.toggle}>Menu</p>
               {this.state.on && (
                 <div className="links">
-                  <Link className="link" to="/">Home</Link>
-                  <Link className="link" to="/frontpage/">Writing</Link>
-                  <Link className="link" to="#">Banshee</Link>
+                  <Link className="nav-link" to="/">Home</Link>
+                  <Link className="nav-link" to="/frontpage/">Writing</Link>
+                  <Link className="nav-link" to="#">Banshee</Link>
                 </div>
               )}
       </div>
