@@ -19,7 +19,7 @@ const Work = () => (
                 <div className="project-right">
                     <p className="work-description">This app allows users to log on and answer general trivia questions whenever they want. There is also a chat feature so that users can talk to their friends as they play.
                     <br></br>
-                    I designed the user interface for this game and came up with the theme. We wanted a clean, simple, and playful design that allowed for maximum game play. I worked with a team of five mostly backend oriented developers to integrate user autentication, a socket io chat feature, a general trivia api and more into a seamless user experiece.
+                    I designed the user interface and theme. I worked with a team of five mostly backend oriented developers to integrate user autentication, a socket io chat feature, a general trivia api, and more into a seamless user experiece.
                     </p>
                     <div className="project-links">
                     <p className="project-link"><a target='_blank' rel="noopener noreferrer" href="https://github.com/finne132/reactionTime">Github</a></p>
@@ -33,7 +33,7 @@ const Work = () => (
                 <img className="project-image" src={people} />
             </div>
                 <div className="project-right">
-                    <p className="work-description">A full-stack Javascript app which allows the user to be more engaged in local politics.</p>
+                    <p className="work-description">WE THE PEOPLE is an application that helps the user find their elected officials based on their address. The user has to input their address to lookup their representatives. The app also provides officials Bio, voting history and upcoming bills.</p>
                     <div className="project-links">
                      <p className="project-link"><a target='_blank' rel="noopener noreferrer"href="https://github.com/kendrak922/We-the-People">Github</a></p>
                      <p className="project-link"><a target='_blank' rel="noopener noreferrer"href="https://wethepeopleapp.herokuapp.com/index.html">App</a></p>
@@ -46,7 +46,7 @@ const Work = () => (
                 <img className="project-image" src={amazon} />
             </div>
                 <div className="project-right">
-                  <p className="work-description">Node.js and MySQL app</p>
+                  <p className="work-description">Amazon-Customer is a node.js app that connects directly with a mysql database. This app works with the inquier npm to interact with the user and mysql to keep track of the products inventory.</p>
                   <div className="project-links">
                   <p className="project-link"><a target='_blank' rel="noopener noreferrer"href="https://github.com/kendrak922/Amazon-Customer">Github</a></p>
                </div>

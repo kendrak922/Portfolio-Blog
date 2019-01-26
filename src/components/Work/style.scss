@@ -28,6 +28,9 @@ $navy:#2A3D45;
         align-self: center;
         text-align: center;
         border-radius: 10px;
+        -moz-transition: all 2s;
+ -o-transition: all 2s;
+ -webkit-transition: all 2s;
         .project-link{
             visibility: hidden;
             
@@ -46,6 +49,9 @@ $navy:#2A3D45;
     .project-right{
         background: $mustard;
         border-radius: 10px;
+        -moz-transform:translate(0,-1.3em);
+        -o-transform:translate(0,-1.3em);
+        -webkit-transform:translate(0,-1.3em);
     }
     
     .project-right{
@@ -91,7 +97,6 @@ a{
     
     }
     .project-right{
-  
    width: 100vw;
     }
 
