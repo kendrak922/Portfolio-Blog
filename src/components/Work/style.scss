@@ -90,21 +90,21 @@ a{
         min-height: 100vh;
 
 .project{
-    
+    display: block;
     .project-left{  
-     width: 100vw;
+     width: 80vw;
      flex: 1;
     
     }
     .project-right{
-   width: 100vw;
+   width: 80vw;
     }
 
 }
     }
     .project-image{
-        height: 50vh;
-        width: 40vw;
+       height: auto;
+       width: auto;
         clear:both;
        
     }
