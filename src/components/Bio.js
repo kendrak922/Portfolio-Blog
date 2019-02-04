@@ -9,8 +9,6 @@ class Bio extends React.Component {
         <p className="bio">
           My name is Kendra and I am a highly indecisive, but enthusiastic lover of words, dancing, and cilantro. 
           I really hate American Cheese. 
-          <a href="https://twitter.com/kylemathews">
-          </a>
         </p>
       </div>
     )
