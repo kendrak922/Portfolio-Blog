@@ -5,7 +5,11 @@ $pink: #885053;
 $brown:#EFECCA;
 $navy:#2A3D45;
 
-
+.work-title{
+ font-size: 5em;
+ padding:30px;
+ margin-top:140px;
+}
 .project{
     margin: auto 0;
     height: 100%;
@@ -81,10 +85,13 @@ a{
 }
 
 @media only screen and (max-width: 800px) {
+    .work-title{
+        font-size: 4em;
+    }
     .work-container{
         flex-direction: column;
         text-align: center;
-        width:90%;
+       
         padding: 5px;
         margin: 5px;
         min-height: 100vh;
@@ -92,12 +99,14 @@ a{
 .project{
     display: block;
     .project-left{  
-     width: 80vw;
+     width: 95vw;
      flex: 1;
+     align-items: center;
     
     }
     .project-right{
-   width: 80vw;
+        width: 95vw;
+
     }
 
 }
@@ -105,10 +114,6 @@ a{
     .project-image{
        height: auto;
        width: auto;
-        clear:both;
        
-    }
-    h1{
-        text-align: center;
     }
 }
