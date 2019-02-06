@@ -4,7 +4,6 @@ import { graphql } from 'gatsby'
 import chillTime from '../../../public/images/chillTime.png'
 import amazon from '../../../public/images/amazon.png'
 import people from '../../../public/images/people.png'
-import './style.scss';
 
 const Work = () => (
 

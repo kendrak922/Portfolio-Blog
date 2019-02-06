@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import Header from '../components/Header';
+import Header from '../components/Header/Header.js';
 import Sticky from 'react-stickynode';
-import Footer from '../components/Footer'
+import Footer from '../components/Footer/Footer.js'
 import Bio from '../components/Bio'
 
 import { rhythm, scale } from '../utils/typography'
