@@ -13,7 +13,10 @@ $navy:#2A3D45;
 .project{
     margin: auto 0;
     height: 100%;
-    display: flex; 
+    display: flex;
+    align-content: center; 
+    color: $navy;
+    font-family: 'Imprima', sans-serif;
 }
     .project-left{
         width: 40vw;
@@ -22,19 +25,18 @@ $navy:#2A3D45;
         align-items: center;
     }
     .project-right{
+        display: flex;
+        // border: 1px red solid;
         align-items: center;
         width:50vw;
         padding: 10px;
-        padding-top: 20px;
-        display: flex;
-        position: relative;
+        // position: relative;
         flex-direction: column;
-        align-self: center;
         text-align: center;
         border-radius: 10px;
-        -moz-transition: all 2s;
- -o-transition: all 2s;
- -webkit-transition: all 2s;
+        -moz-transition: all 1s;
+ -o-transition: all 1s;
+ -webkit-transition: all 1s;
         .project-link{
             visibility: hidden;
             
