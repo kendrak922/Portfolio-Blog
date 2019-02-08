@@ -6,7 +6,7 @@ import React, { Component } from 'react'
 import icon from '../../../public/icons/icon.png'
 
 
-class Header extends Component {
+class header extends Component {
   state = {
     on: false,
   }
@@ -38,7 +38,7 @@ class Header extends Component {
 
 
 
-export default Header;
+export default header;
 
 
 

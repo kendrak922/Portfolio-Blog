@@ -2,7 +2,7 @@ import React from 'react'
 
 // import { rhythm } from '../utils/typography'
 
-class Bio extends React.Component {
+class bio extends React.Component {
   render() {
     return (
       <div>
@@ -15,4 +15,4 @@ class Bio extends React.Component {
   }
 }
 
-export default Bio
+export default bio
