@@ -54,7 +54,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "https://github.com/kendrak922/Portfolio-Blog"
   },
   "scripts": {
     "dev": "gatsby develop",

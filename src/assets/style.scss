@@ -114,22 +114,36 @@ p{
 }
 
 //nav
-.nav{
+.directory{
+  background-color:$navy;
+  top:0;
+  width:100%;
+  display: flex;
+  font-size: 30px;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items: center;
+  padding:10px 25px;
+  text-underline-position: above;
+  z-index: 1;
+  font-weight: bold;
+}
+.logo{
   margin: 0 auto;
   margin-right: 20px;
-  float:right;
   display:flex;
-  flex-direction: column;
+  // flex-direction: column;
   flex-wrap: wrap;
   width: 100px;
   justify-content: center;
   align-items: center;
-  p{
-  margin-top:-10px;
-  text-align:center;
-  cursor: pointer;
-  color: $pink;
-  }
+  // z-index: 2;
+  // p{
+  // margin-top:-30px;
+  // text-align:center;
+  // cursor: pointer;
+  // color: $pink;
+  // }
   }
   
   img{
@@ -194,6 +208,7 @@ p{
  -webkit-transition: all 1s;
         .project-link{
             visibility: hidden;
+            z-index: 1;
             
         }
        
@@ -239,6 +254,7 @@ p{
 a{
     text-decoration: none;
     color: $pink;
+    box-shadow: 0px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -325,6 +341,7 @@ a{
 @media only screen and (max-width: 800px) {
   .background{
     height: 450px;
+    margin-top: -200px;
   .title{
     padding-top: 200px;
     text-align: center;
@@ -355,6 +372,13 @@ a{
    width: auto;
  }
 }
+.directory{
+  font-size: 20px;
+}
+h1,p{
+  text-align: center;
+}
+
 }
 .bio{
   margin: 5px;

@@ -5,7 +5,7 @@ import React, { Component } from 'react'
 
 
 const footer = () => (
-    <div className="footer">
+    <div className="footer" id="footer">
         <p className="contact-title">- Get in Touch -</p>
         <p className="email">kendrak922@gmail.com</p>
         <p className="number">651-261-5162</p>

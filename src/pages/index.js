@@ -11,6 +11,22 @@ import Work from '../components/work/work.js';
 class IndexPage extends Component {
  
   render() {
+  //   componentDidMount: function() {
+  //     window.addEventListener('scroll', this.handleScroll);
+  // }
+  
+  // componentWillUnmount: function() {
+  //     window.removeEventListener('scroll', this.handleScroll);
+  // }
+  
+  // handleScroll: function(event) {
+  //     let scrollTop = event.srcElement.body.scrollTop,
+  //         itemTranslate = Math.min(0, scrollTop/3 - 60);
+  
+  //     this.setState({
+  //       transform: itemTranslate
+  //     });
+  // }
     return (
       <div className="IndexPage">
       <Helmet/>
@@ -18,7 +34,7 @@ class IndexPage extends Component {
     <Header />
     </Sticky>
         <div className="background">
-          <h1 className="title">It's me, Kendra.</h1>
+          <h1 className="title" id="about-me">It's me, Kendra.</h1>
           <h2>Full Stack Web Developer</h2>
         </div>
         <div className="background2"></div>

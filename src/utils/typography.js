@@ -8,6 +8,7 @@ Wordpress2016.overrideThemeStyles = () => ({
   },
   'a' : {
     textDecoration: 'none',
+    boxShadow: 'none',
   }
 })
 

@@ -8,7 +8,7 @@ import people from '../../../public/images/people.png'
 const work = () => (
 
     <div>
-        <h1 className="work-title">Stuff I've worked on</h1>
+        <h1 className="work-title"id="work-title">Stuff I've worked on</h1>
         <div className="work-container">
             <div className="project">
             <div className="project-left">
