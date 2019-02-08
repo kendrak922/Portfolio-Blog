@@ -5,7 +5,7 @@ import chillTime from '../../../public/images/chillTime.png'
 import amazon from '../../../public/images/amazon.png'
 import people from '../../../public/images/people.png'
 
-const Work = () => (
+const work = () => (
 
     <div>
         <h1 className="work-title">Stuff I've worked on</h1>
@@ -55,5 +55,5 @@ const Work = () => (
                             </div>
                             );
 
-export default Work;
+export default work;
 
