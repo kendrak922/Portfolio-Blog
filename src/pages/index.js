@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import face from '../assets/face.jpg'
-import footer from '../components/Footer/footer.js'
+import footer from '../components/footer/footer.js'
 import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 import '../assets/style.scss'
-import header from '../components/Header/header.js';
+import header from '../components/header/header.js';
 import Sticky from 'react-stickynode';
-import work from '../components/Work/work.js';
+import work from '../components/work/work.js';
 class IndexPage extends Component {
  
   render() {
