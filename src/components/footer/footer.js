@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 
 
 
-const footer = () => (
+const Footer = () => (
     <div className="footer" id="footer">
         <p className="contact-title">- Get in Touch -</p>
         <p className="email">kendrak922@gmail.com</p>
@@ -18,4 +18,4 @@ const footer = () => (
 
 )
 
-export default footer;
+export default Footer;

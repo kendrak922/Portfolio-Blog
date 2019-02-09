@@ -7,7 +7,7 @@ import Sticky from 'react-stickynode';
 import icon from '../../assets/icons/icon.png'
 
 
-class header extends Component {
+class Header extends Component {
   state = {
     on: false,
   }
@@ -48,7 +48,7 @@ class header extends Component {
 
 
 
-export default header;
+export default Header;
 
 
 
