@@ -13,7 +13,7 @@ const Work = () => (
             <div className="project">
             <div className="project-left">
             <p className="project-title">Chill Time Trivia</p>
-                <img className="project-image" src={chillTime} />
+                <img className="project-image" alt="app interface" src={chillTime} />
                 </div>
                 <div className="project-right">
                     <p className="work-description">This app allows users to log on and answer general trivia questions whenever they want. There is also a chat feature so that users can talk to their friends as they play.
@@ -29,7 +29,7 @@ const Work = () => (
             <div className="project">
             <div className="project-left">
             <p className="project-title">We The People</p>
-                <img className="project-image" src={people} />
+                <img className="project-image" alt="app interface" src={people} />
             </div>
                 <div className="project-right">
                     <p className="work-description">WE THE PEOPLE is an application that helps the user find their elected officials based on their address. The user has to input their address to lookup their representatives. The app also provides officials Bio, voting history and upcoming bills.</p>
@@ -42,7 +42,7 @@ const Work = () => (
             <div className="project">
             <div className="project-left">
             <p className="project-title">Amazon-Customer</p>
-                <img className="project-image" src={amazon} />
+                <img className="project-image" alt="node interface"src={amazon} />
             </div>
                 <div className="project-right">
                   <p className="work-description">Amazon-Customer is a node.js app that connects directly with a mysql database. This app works with the inquier npm to interact with the user and mysql to keep track of the products inventory.</p>
