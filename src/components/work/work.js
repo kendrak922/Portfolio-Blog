@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { graphql } from 'gatsby'
-import chillTime from '../../../public/images/chillTime.png'
-import amazon from '../../../public/images/amazon.png'
-import people from '../../../public/images/people.png'
+import chillTime from '../../assets/images/chillTime.png'
+import amazon from '../../assets/images/amazon.png'
+import people from '../../assets/images/people.png'
 
 const work = () => (
 
