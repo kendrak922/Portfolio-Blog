@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 import Sticky from 'react-stickynode';
 
 
-import icon from '../../../public/icons/icon.png'
+import icon from '../../assets/icons/icon.png'
 
 
 class header extends Component {
