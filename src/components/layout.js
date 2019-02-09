@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import header from '../components/header/header.js';
 import Sticky from 'react-stickynode';
 import footer from '../components/footer/footer.js'
-import bio from '../components/bio'
+import Bio from '../components/bio'
 
 import { rhythm, scale } from '../utils/typography'
 

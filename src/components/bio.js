@@ -15,4 +15,4 @@ class bio extends React.Component {
   }
 }
 
-export default bio
+export default Bio
